@@ -1,0 +1,12 @@
+{
+  "demo": [
+    "fnp.4simaging.com",
+    "demo.0vx.net",
+    "demo.11q5.com"
+  ],
+  "production": [
+    "fnp.4simaging.com",
+    "fnp.0vx.net",
+    "fnp.11q5.com"
+  ]
+}
