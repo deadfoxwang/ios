@@ -1,0 +1,268 @@
+{
+    "ToolList": [
+        {
+            "FC Template": [
+                {
+                    "api": "fc",
+                    "name": "HKID (VPN)",
+                    "parameters": {
+                        "Templates": "HKID,HKID-ENG"
+                    },
+                    "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload"
+                },
+                {
+                    "api": "fc",
+                    "name": "PASSPORT (VPN)",
+                    "parameters": {
+                        "Templates": "PASSPORT,PASSPORT-ENG"
+                    },
+                    "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload"
+                },
+                {
+                    "api": "fc",
+                    "name": "MIXED (VPN)",
+                    "parameters": {
+                        "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
+                    },
+                    "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "HKPassport (public)",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/HKPassport"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "HKIDCapture (public)",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/HKIDCapture"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "IDCardCapture (public)",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/IDCardCapture"
+                },
+                {
+                    "api": "fcjson",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "imageFieldName": "ImageBase",
+                    "name": "Address (public)",
+                    "parameters": {
+                        "UserEmail": ""
+                    },
+                    "url": "http://www.ecmol.com/api/AutoCorrect/WebOCR"
+                }
+            ]
+        },
+        {
+            "BaiDU AI": [
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "身份证识别",
+                    "parameters": {
+                        "detect_direction": true,
+                        "detect_risk": true,
+                        "id_card_side": "front"
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/idcard"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "通用文字识别",
+                    "parameters": {
+                        "detect_direction": true
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "手写文字识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/handwriting"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "通用票据识别",
+                    "parameters": {
+                        "detect_direction": true
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/receipt"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "增值税发票识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/vat_invoice"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "火车票识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/train_ticket"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "出租车票识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/taxi_receipt"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "定额发票识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/quota_invoice"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "银行卡识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/bankcard"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "营业执照识别",
+                    "parameters": {
+                        "detect_direction": true
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/business_license"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "护照识别",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/passport"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "驾驶证识别",
+                    "parameters": {
+                        "detect_direction": true
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/driving_license"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "行驶证识别",
+                    "parameters": {
+                        "detect_direction": true
+                    },
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/vehicle_license"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "户口本识别(need request)",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/household_register"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "出生医学证明识别(need request)",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/birth_certificate"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "港澳通行证识别(need request)",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/HK_Macau_exitentrypermit"
+                },
+                {
+                    "api": "baidu",
+                    "header": {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "name": "台湾通行证识别(need request)",
+                    "parameters": {},
+                    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/taiwan_exitentrypermit"
+                }
+            ]
+        },
+        {
+            "Google AI": [
+                {
+                    "api": "google",
+                    "header": {},
+                    "name": "Cloud Vision API",
+                    "parameters": {},
+                    "url": "https://vision.googleapis.com/v1/images:annotate"
+                },
+                {
+                    "name": "G5"
+                },
+                {
+                    "name": "G7"
+                }
+            ]
+        }
+    ]
+}
