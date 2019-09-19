@@ -4,7 +4,7 @@
             "FC Template": [
                 {
                     "api": "fc",
-                    "name": "HKID (VPN)",
+                    "name": "HKID (VPN,company intranet)",
                     "parameters": {
                         "Templates": "HKID,HKID-ENG"
                     },
@@ -12,7 +12,7 @@
                 },
                 {
                     "api": "fc",
-                    "name": "PASSPORT (VPN)",
+                    "name": "PASSPORT (VPN,company intranet)",
                     "parameters": {
                         "Templates": "PASSPORT,PASSPORT-ENG"
                     },
@@ -20,7 +20,7 @@
                 },
                 {
                     "api": "fc",
-                    "name": "MIXED (VPN)",
+                    "name": "MIXED (VPN,company intranet)",
                     "parameters": {
                         "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
                     },
