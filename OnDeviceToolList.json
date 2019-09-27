@@ -12,6 +12,14 @@
                     "url": ""
                 },{
                     "api": "AVFoundation",
+                    "name": "Barcode Scanner (PDF417,QR,code128,code39)",
+                    "parameters": {
+                        "ObjectType": "AllBarcode",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "AVFoundation",
                     "name": "PDF417 codes Scanner",
                     "parameters": {
                         "ObjectType": "pdf417",
@@ -87,14 +95,6 @@
                     "name": "EAN-8 codes Scanner",
                     "parameters": {
                         "ObjectType": "ean8",
-                        "ProcessType": "image"
-                    },
-                    "url": ""
-                },{
-                    "api": "AVFoundation",
-                    "name": "MRZ Scanner",
-                    "parameters": {
-                        "ObjectType": "interleaved2of5",
                         "ProcessType": "image"
                     },
                     "url": ""
@@ -144,6 +144,14 @@
                     "url": ""
                 },{
                     "api": "AVFoundation",
+                    "name": "Barcode Scanner (PDF417,QR,code128,code39)",
+                    "parameters": {
+                        "ObjectType": "AllBarcode",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "AVFoundation",
                     "name": "PDF417 codes Scanner",
                     "parameters": {
                         "ObjectType": "pdf417",
@@ -219,14 +227,6 @@
                     "name": "EAN-8 codes Scanner",
                     "parameters": {
                         "ObjectType": "ean8",
-                        "ProcessType": "camera"
-                    },
-                    "url": ""
-                },{
-                    "api": "AVFoundation",
-                    "name": "MRZ Scanner",
-                    "parameters": {
-                        "ObjectType": "interleaved2of5",
                         "ProcessType": "camera"
                     },
                     "url": ""
