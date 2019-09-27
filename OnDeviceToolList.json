@@ -1,0 +1,268 @@
+{
+    "ToolList": [
+        {
+            "On-device Scanner (Latin characters)": [
+                {
+                    "api": "firebase",
+                    "name": "MRZ Scanner",
+                    "parameters": {
+                        "ObjectType": "mrz",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "PDF417 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "pdf417",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "QR codes Scanner",
+                    "parameters": {
+                        "ObjectType": "qr",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 128 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code128",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 39 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code39",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 39 mod 43 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code39Mod43",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 93 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code93",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Aztec codes Scanner",
+                    "parameters": {
+                        "ObjectType": "aztec",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "DataMatrix codes Scanner",
+                    "parameters": {
+                        "ObjectType": "dataMatrix",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "EAN-13 (including UPC-A) codes Scanner",
+                    "parameters": {
+                        "ObjectType": "ean13",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "EAN-8 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "ean8",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "MRZ Scanner",
+                    "parameters": {
+                        "ObjectType": "interleaved2of5",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Interleaved 2 of 5 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "interleaved2of5",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "ITF14 Scanner",
+                    "parameters": {
+                        "ObjectType": "itf14",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "UPC-E codes Scanner",
+                    "parameters": {
+                        "ObjectType": "upce",
+                        "ProcessType": "image"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Face Object",
+                    "parameters": {
+                        "ObjectType": "face",
+                        "ProcessType": "image"
+                    }
+                }
+            ]
+        },
+        {
+            "Real-time processing—ideal for a camera": [
+               {
+                    "api": "firebase",
+                    "name": "MRZ Scanner",
+                    "parameters": {
+                        "ObjectType": "mrz",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "PDF417 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "pdf417",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "QR codes Scanner",
+                    "parameters": {
+                        "ObjectType": "qr",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 128 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code128",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 39 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code39",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 39 mod 43 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code39Mod43",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Code 93 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "code93",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Aztec codes Scanner",
+                    "parameters": {
+                        "ObjectType": "aztec",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "DataMatrix codes Scanner",
+                    "parameters": {
+                        "ObjectType": "dataMatrix",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "EAN-13 (including UPC-A) codes Scanner",
+                    "parameters": {
+                        "ObjectType": "ean13",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "EAN-8 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "ean8",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "MRZ Scanner",
+                    "parameters": {
+                        "ObjectType": "interleaved2of5",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Interleaved 2 of 5 codes Scanner",
+                    "parameters": {
+                        "ObjectType": "interleaved2of5",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "ITF14 Scanner",
+                    "parameters": {
+                        "ObjectType": "itf14",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "UPC-E codes Scanner",
+                    "parameters": {
+                        "ObjectType": "upce",
+                        "ProcessType": "camera"
+                    },
+                    "url": ""
+                },{
+                    "api": "firebase",
+                    "name": "Face Object",
+                    "parameters": {
+                        "ObjectType": "face",
+                        "ProcessType": "camera"
+                    }
+                }
+            ]
+        }
+    ]
+}
