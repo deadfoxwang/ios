@@ -116,7 +116,7 @@
                     "url": ""
                 },{
                     "api": "firebase",
-                    "name": "Face Object",
+                    "name": "Face Object (coming soon)",
                     "parameters": {
                         "ObjectType": "face",
                         "ProcessType": "image"
@@ -248,7 +248,7 @@
                     "url": ""
                 },{
                     "api": "AVFoundation",
-                    "name": "Face Object",
+                    "name": "Face Object (coming soon)",
                     "parameters": {
                         "ObjectType": "face",
                         "ProcessType": "camera"
