@@ -25,54 +25,6 @@
                         "Templates": "HKID,HKID-ENG,PASSPORT,PASSPORT-ENG"
                     },
                     "url": "http://10.0.0.35/webservice2/api/FCE/PostUpload"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "HKPassport (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/HKPassport"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "HKIDCapture (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/HKIDCapture"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "IDCardCapture (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/IDCardCapture"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "Address (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/WebOCR"
                 }
             ]
         },
