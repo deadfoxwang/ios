@@ -36,7 +36,7 @@
                     "parameters": {
                         "UserEmail": ""
                     },
-                    "url": "http://www.ecmol.com/api/AutoCorrect/HKPassport"
+                    "url": "https://www.ecmol.com/api/AutoCorrect/HKPassport"
                 },
                 {
                     "api": "fcjson",
@@ -48,7 +48,7 @@
                     "parameters": {
                         "UserEmail": ""
                     },
-                    "url": "http://www.ecmol.com/api/AutoCorrect/HKIDCapture"
+                    "url": "https://www.ecmol.com/api/AutoCorrect/HKIDCapture"
                 },
                 {
                     "api": "fcjson",
@@ -60,7 +60,7 @@
                     "parameters": {
                         "UserEmail": ""
                     },
-                    "url": "http://www.ecmol.com/api/AutoCorrect/IDCardCapture"
+                    "url": "https://www.ecmol.com/api/AutoCorrect/IDCardCapture"
                 },
                 {
                     "api": "fcjson",
@@ -72,7 +72,7 @@
                     "parameters": {
                         "UserEmail": ""
                     },
-                    "url": "http://www.ecmol.com/api/AutoCorrect/WebOCR"
+                    "url": "https://www.ecmol.com/api/AutoCorrect/WebOCR"
                 }
             ]
         },
