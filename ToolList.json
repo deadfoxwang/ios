@@ -32,47 +32,11 @@
                         "Content-Type": "application/json"
                     },
                     "imageFieldName": "ImageBase",
-                    "name": "HKPassport (public)",
+                    "name": "Coming soon",
                     "parameters": {
                         "UserEmail": ""
                     },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/HKPassport"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "HKIDCapture (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/HKIDCapture"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "IDCardCapture (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/IDCardCapture"
-                },
-                {
-                    "api": "fcjson",
-                    "header": {
-                        "Content-Type": "application/json"
-                    },
-                    "imageFieldName": "ImageBase",
-                    "name": "Address (public)",
-                    "parameters": {
-                        "UserEmail": ""
-                    },
-                    "url": "https://www.ecmol.com/api/AutoCorrect/WebOCR"
+                    "url": "null"
                 }
             ]
         },
