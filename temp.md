@@ -10,3 +10,6 @@
            SSLVerifyClient="optional" SSLProtocol="TLSv1+TLSv1.1+TLSv1.2"/>
            
 ```
+
+
+https://dynamicware2019-my.sharepoint.com/personal/tony_chen_4simaging_net/Documents/Microsoft%20Teams%20Chat%20Files/Hello.zip
